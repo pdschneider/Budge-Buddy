@@ -14,6 +14,7 @@ The actual code is written already (sorry, I wanted to make sure it worked befor
 
 
 End result:
+
 Output:
 Budget Buddy ready! Talk to me here.
 Tell me what to do: 
