@@ -1,4 +1,4 @@
-# Budge-Buddy
+# Budget-Buddy
 This tool connects to a local LLM and reads/writes to a budget file.
 
 This project is a tool that combines the features of Siri or Alexa with a locally run LLM. At its core, the script runs a local LLM (in this case Llama 3.2) via a program called Ollama within terminal. It also creates a new CSV type budget file with default entries and uses preset commands (example: "Add $50 to Groceries." or "Change Restaurants to $200") to actually write to the file itself.
