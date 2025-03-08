@@ -3,7 +3,8 @@ This tool connects to a local LLM and reads/writes to a budget file.
 
 This project is a tool that combines the features of Siri or Alexa with a locally run LLM. At its core, the script runs a local LLM (in this case Llama 3.2) via a program called Ollama within terminal. It also creates a new CSV type budget file with default entries and uses preset commands (example: "Add $50 to Groceries." or "Change Restaurants to $200") to actually write to the file itself.
 The objective is to create the seed of a larger software vision that could be thought of as a true virtual assistant, like Siri + ChatGPT. It would be all totally local and private with the ability to modify your schedule, set reminders, change your budget, etc., as well as give you advice in a way that updates to new input retained as memories. So you could talk to the LLM about your plans for the month and it would give you a template budget (example: "Hey LLM, this month I'm traveling to Dubai so I need to budget for that. Can you give me an estimate on how much that would cost? Hint: a lot).
-The actual code is written already (sorry, I wanted to make sure it worked before submitting the idea!) and what it does is just a start of what it could theoretically do, but here's the breakdown:
+
+Here's the breakdown:
 
 1. Imports the necessary modules (csv, os, requests, and string).
 2. Creates a CSV type budget file if not already in the folder path with default categories and amounts.
@@ -16,14 +17,18 @@ The actual code is written already (sorry, I wanted to make sure it worked befor
 End result:
 
 Output:
+
 Budget Buddy ready! Talk to me here.
 Tell me what to do: 
 
 Input:
+
 Add $100 to groceries.
 
 Output:
+
 Result: Updated Groceries to 600.0
+
 Budget Buddy says: "Hey, just wanted to touch base with you about the grocery budget. I understand we've been looking at our expenses and making some adjustments. Would it be possible to add another $100 to that category? That way, we can still keep an eye on things but also make sure we're covering all our bases when it comes to food."
 
 
